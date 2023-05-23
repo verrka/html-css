@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Example CSS</title>
+    <style>
+        /* CSS стилі */
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .block {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            padding: 20px;
+            background-color: #f2f2f2;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            position: relative;
+        }
+
+            .block::before {
+                content: "\2605";
+                font-size: 32px;
+                margin-right: 10px;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 5px;
+        }
+
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+            }
+
+                nav ul li {
+                    margin: 0 10px;
+                }
+
+        @media (max-width: 600px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Пункт 1</a></li>
+            <li><a href="#">Пункт 2</a></li>
+            <li><a href="#">Пункт 3</a></li>
+            <li><a href="#">Пункт 4</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="block">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY_ranaOvykOOpxru1PHNYkRTxMZnVAmnvrBEsdsRI5B0b2nolEUBfzGM&usqp=CAI&s" alt="Блок 1" />
+        </div>
+        <div class="block">Блок 2</div>
+        <div class="block">Блок 3</div>
+        <div class="block">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToDO1X91BbzRnsTlx2guJ6ex6irWD8vSJWitfeKKpdJPaVGP996bl1ki0&usqp=CAI&s" alt="Блок 4" />
+        </div>
+        <div class="block">Блок 5</div>
+        <div class="block">Блок 6</div>
+        <div class="block">Блок 7</div>
+        <div class="block">Блок 8</div>
+        <div class="block">Блок 9</div>
+        <div class="block">Блок 10</div>
+    </div>
+</body>
+</html>
