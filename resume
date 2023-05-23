@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume</title>
+    <link rel="stylesheet" type="text/css" a href="C:\Users\veron\Desktop\resumew\StyleSheet1.css">
+</head>
+<body>
+    <div class="resume-container">
+    <div class="resume">
+        <div class="left-column">
+            <div class="header">
+                <div class="profile-picture">
+                    <div class="rectangle"></div>
+                    <img src="C:\Users\veron\Desktop\завантаження (1).jpeg" alt="Profile Picture">
+                </div>
+                <div class="contact-info">
+                    
+                    <div class="info"><span>Tel: </span>+(380) 099 788 6868</div>
+                    
+                    <div class="info"><span>E-mail: </span>fakaveronika@gmail.com</div>
+                    
+                    <div class="info"><span>Address: </span>Vesela 7/12, Ternopil, Ukraine</div>
+                </div>
+            </div>
+            <div class="skills-languages-container">
+                <div class="skills">
+                    <div class="softskills">
+                    <h2>Soft Skills</h2>
+                    <ul>
+                        <li>Communicative</li>
+                        <li>Ability to work in a team</li>
+                        <li>Critical Thinking</li>
+                        <li>Flexibility</li>
+                        <li>Adaptability</li>
+                        <li>Creativity</li>
+                        <li>Non-standart thinking</li>
+                        <li>Stress resistance</li>
+                        <li>Empathy</li>
+                        <li>Time-management</li>
+                    </ul>
+                </div>
+            </div>
+           
+                <div class="skills">
+
+                    <div class="hardskills">
+                    <h2>Hard Skills</h2>
+                    <ul>
+                        <li>C/C++</li>
+                        <li>Figma</li>
+                        <li>Visual Studio Code</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Java</li>
+                        <li>MySQL</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li>English (B2)</li>
+                    <li>German (A2)</li>
+                </ul>
+            </div>
+        </div>
+
+        </div>
+        <div class="profile-container"></div>
+        <div class="right-column">
+            <div class="name"> <h3>KAMELIA BRONK</h3></div>
+            <div class="work-experience">
+                <h2>Work Experience</h2>
+                <div class="job">
+                    <div class="company">Steiner Edelobst, Scharten, Austria</div>
+                    <div class="dates">June - September 2022</div>
+                    <div class="position">Seasonal worker</div>
+                </div>
+            </div>
+            <div class="education">
+                <h2>Education</h2>
+                <div class="school">Ivan Franko National University, Lviv, Ukraine</div>
+                <div class="dates">2021 - present</div>
+                <div class="school">School 3 Specialized in Learning Foreign Languages, Ternopil, Ukraine</div>
+                <div class="dates">2010-2021</div>
+                <div class="average-score">Average score of the certificate: 11.25</div>
+                <div class="school">Ivan Barvinskyi Music School №1, Ternopil, Ukraine</div>
+                <div class="dates">2013 - 2019</div>
+                <div class="specialty">Specialty: Violin</div>
+            </div>
+            <div class="communities">
+                <h2>Communities</h2>
+                <div class="community">Cathedral of the Immaculate Conception of the Blessed Virgin Mary, Ternopil, Ukraine</div>
+                <div class="dates">2018-present</div>
+                <div class="activity">Member of Catholic youth club</div>
+                <div class="community">The church of Zarvanytsia Mother of God, UGCC Ternopil, Ukraine</div>
+                <div class="dates">2020-present</div>
+                <div class="activity">Member of the community "Youth of the Church of the Mother of God of Zarvanytsia"</div>
+                <div class="activity">2021-Animator at the children's camp "Vacations with God"</div>
+                <div class="activity">2021-Animator at the children's camp "Easter"</div>
+                <div class="activity">2020-Animator at the children's camp "St. Nicholas"</div>
+            </div>
+            <div class="hobbies">
+                <h2>Hobbies, Interests</h2>
+                <ul>
+                    <li>Cooking</li>
+                    <li>Reading</li>
+                    <li>Swimming</li>
+                    <li>Playing the violin</li>
+                    <li>Rollerblading</li>
+                    <li>Cycling</li>
+                    <li>Embroidery</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+   </div>
+</body>
+<style>
+
+    body {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .resume-container {
+        display: flex;
+    }
+
+    .resume {
+        display: flex;
+    }
+
+    .left-column {
+        width: 20%;
+        background-color: #302D31;
+        color: #FFF;
+        padding: 20px;
+        margin-left: 250px;
+        margin-bottom: 100px;
+    }
+
+    .right-column {
+        width: 50%;
+        background-color: #F7F7F7;
+        padding: 20px;
+        margin-right: 250px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+    }
+    
+    .profile-picture {
+        position: relative;
+        width: 150px;
+        height: 150px;
+        margin-right: 60px;
+    }
+
+        .profile-picture img {
+            position: relative;
+            width: 120%;
+            height: 100%;
+            object-fit: cover;
+            border: 3px solid #C9C8CD;
+            border-radius: 60%;
+            z-index: 1;
+            margin-left: 40px;
+        }
+
+    .contact-info {
+        margin-left: 20px;
+        margin-bottom: -300px;
+    }
+    .info {
+        margin-left: -200px;
+    }
+    .info {
+        margin-top: 10px;
+    }
+    .icon {
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+    .skills-languages-container {
+        margin-bottom: 100px;
+
+    }
+    .hardskills h2{
+        margin-bottom: 10px;
+        
+    }
+
+    .softskills
+     {
+        margin-bottom: 10px;
+        margin-top: 160px;
+    }
+    .softskills ul li {
+        margin-top: 10px;
+    }
+    .hardskills ul li {
+        margin-top: 10px;
+    }
+    .languages ul li{
+        margin-top:10px;
+    }
+
+    .skills {
+        margin-bottom: 10px; 
+    }
+
+    .languages {
+        margin-top: 10px; 
+    }
+    .skills h2
+    {
+        font-size:24px;
+    }
+    .languages h2 {
+        font-size:24px;
+    }
+    .skills, h2,
+    .languages, h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+        .skills ul,
+        .languages ul {
+            padding-left: 20px;
+            list-style-type: disc;
+            margin-bottom: 10px;
+        }
+
+        .skills
+        .skills ul,
+        .languages ul,
+         h2 {
+            margin-bottom: 40px;
+            margin-top: 40px;
+        }
+
+    .work-experience,
+    .education,
+    .communities,
+    .hobbies {
+        margin-bottom: 20px;
+    }
+
+        .work-experience .job,
+        .education .school,
+        .communities .community {
+            margin-bottom: 10px;
+            
+        }
+    
+    .work-experience {
+        margin-bottom: 30px;
+    }
+    .name {
+        margin-bottom: 160px;
+    }
+        .name h3 {
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            margin-top: 115px;
+            margin-right: 120px;
+            font-size:24px;
+            z-index: 1;
+            font-weight: 300;
+        }
+    .rectangle {
+        position: absolute;
+        top: 1px;
+        width: 982px;
+        height: 114px;
+        background: #D9D9D9;
+        background-color: #D9D9D9;
+        margin-left: -20px;
+        margin-top: 20px;
+    }
+</style>
+</html>
